@@ -6,74 +6,75 @@ const Skills = () => {
   const skillCategories = [
     {
       icon: Code,
-      title: "Frontend Development",
+      title: "Programming Languages",
       color: "text-primary",
       skills: [
-        { name: "React", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Next.js", level: 85 },
-        { name: "Tailwind CSS", level: 95 },
-        { name: "Framer Motion", level: 80 },
+        { name: "Python", level: 95 },
+        { name: "SQL", level: 90 },
+        { name: "R", level: 85 },
+        { name: "C++", level: 80 },
+        { name: "Java", level: 75 },
+        { name: "JavaScript", level: 70 },
       ]
     },
     {
       icon: Database,
-      title: "Backend Development",
+      title: "Machine Learning & AI",
       color: "text-secondary",
       skills: [
-        { name: "Node.js", level: 90 },
-        { name: "Python", level: 85 },
-        { name: "PostgreSQL", level: 80 },
-        { name: "MongoDB", level: 85 },
-        { name: "GraphQL", level: 75 },
+        { name: "Scikit-learn", level: 90 },
+        { name: "TensorFlow", level: 85 },
+        { name: "Supervised Learning", level: 90 },
+        { name: "Unsupervised Learning", level: 85 },
+        { name: "Neural Networks", level: 80 },
       ]
     },
     {
       icon: Globe,
-      title: "Web Technologies",
+      title: "Tools & Frameworks",
       color: "text-accent",
       skills: [
-        { name: "Three.js", level: 75 },
-        { name: "WebGL", level: 70 },
-        { name: "PWA", level: 80 },
-        { name: "WebRTC", level: 65 },
-        { name: "WebSockets", level: 85 },
+        { name: "Pandas", level: 95 },
+        { name: "SciPy", level: 85 },
+        { name: "Tableau", level: 90 },
+        { name: "Power BI", level: 85 },
+        { name: "Apache Hadoop", level: 75 },
+        { name: "AWS", level: 80 },
       ]
     },
     {
       icon: Smartphone,
-      title: "Mobile Development",
+      title: "Version Control",
       color: "text-primary-glow",
       skills: [
-        { name: "React Native", level: 80 },
-        { name: "Flutter", level: 70 },
-        { name: "iOS", level: 65 },
-        { name: "Android", level: 65 },
-        { name: "Expo", level: 85 },
+        { name: "GitHub", level: 95 },
+        { name: "GitLab", level: 85 },
+        { name: "Bitbucket", level: 80 },
+        { name: "Git", level: 95 },
       ]
     },
     {
       icon: Zap,
-      title: "DevOps & Tools",
+      title: "Problem-Solving",
       color: "text-secondary-glow",
       skills: [
-        { name: "Docker", level: 85 },
-        { name: "AWS", level: 80 },
-        { name: "CI/CD", level: 85 },
-        { name: "Git", level: 95 },
-        { name: "Jest", level: 90 },
+        { name: "Analytical Thinking", level: 95 },
+        { name: "Critical Thinking", level: 90 },
+        { name: "Decision-Making", level: 85 },
+        { name: "Troubleshooting", level: 90 },
+        { name: "Debugging", level: 85 },
       ]
     },
     {
       icon: Cpu,
-      title: "Emerging Tech",
+      title: "Data Analysis",
       color: "text-accent-glow",
       skills: [
-        { name: "AI/ML", level: 70 },
-        { name: "Blockchain", level: 60 },
-        { name: "IoT", level: 55 },
-        { name: "AR/VR", level: 65 },
-        { name: "Edge Computing", level: 60 },
+        { name: "Data Visualization", level: 90 },
+        { name: "Statistical Analysis", level: 85 },
+        { name: "Predictive Modeling", level: 85 },
+        { name: "Data Cleaning", level: 90 },
+        { name: "EDA", level: 90 },
       ]
     }
   ];
@@ -90,10 +91,10 @@ const Skills = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-5xl lg:text-7xl font-bold mb-6">
-            My <span className="gradient-text">Skills</span>
+            Technical <span className="gradient-text">Skills</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A comprehensive overview of my technical expertise and proficiency levels across various technologies.
+            My expertise across programming languages, machine learning, data analysis tools, and problem-solving methodologies.
           </p>
         </motion.div>
 
@@ -154,53 +155,53 @@ const Skills = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
         >
-          <div className="text-center">
-            <motion.div
-              className="text-4xl font-bold gradient-text mb-2"
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ duration: 0.5, delay: 1 }}
-            >
-              5+
-            </motion.div>
-            <p className="text-muted-foreground">Years of Experience</p>
-          </div>
-          
-          <div className="text-center">
-            <motion.div
-              className="text-4xl font-bold gradient-text mb-2"
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ duration: 0.5, delay: 1.1 }}
-            >
-              50+
-            </motion.div>
-            <p className="text-muted-foreground">Projects Completed</p>
-          </div>
-          
-          <div className="text-center">
-            <motion.div
-              className="text-4xl font-bold gradient-text mb-2"
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ duration: 0.5, delay: 1.2 }}
-            >
-              30+
-            </motion.div>
-            <p className="text-muted-foreground">Technologies Mastered</p>
-          </div>
-          
-          <div className="text-center">
-            <motion.div
-              className="text-4xl font-bold gradient-text mb-2"
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ duration: 0.5, delay: 1.3 }}
-            >
-              100%
-            </motion.div>
-            <p className="text-muted-foreground">Client Satisfaction</p>
-          </div>
+            <div className="text-center">
+              <motion.div
+                className="text-4xl font-bold gradient-text mb-2"
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ duration: 0.5, delay: 1 }}
+              >
+                3+
+              </motion.div>
+              <p className="text-muted-foreground">Years of Learning</p>
+            </div>
+            
+            <div className="text-center">
+              <motion.div
+                className="text-4xl font-bold gradient-text mb-2"
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ duration: 0.5, delay: 1.1 }}
+              >
+                10+
+              </motion.div>
+              <p className="text-muted-foreground">Projects Completed</p>
+            </div>
+            
+            <div className="text-center">
+              <motion.div
+                className="text-4xl font-bold gradient-text mb-2"
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ duration: 0.5, delay: 1.2 }}
+              >
+                15+
+              </motion.div>
+              <p className="text-muted-foreground">Technologies Learned</p>
+            </div>
+            
+            <div className="text-center">
+              <motion.div
+                className="text-4xl font-bold gradient-text mb-2"
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ duration: 0.5, delay: 1.3 }}
+              >
+                6+
+              </motion.div>
+              <p className="text-muted-foreground">Certifications Earned</p>
+            </div>
         </motion.div>
       </div>
     </div>

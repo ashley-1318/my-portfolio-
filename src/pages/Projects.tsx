@@ -7,60 +7,60 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include real-time inventory, admin dashboard, and mobile-responsive design.",
-      image: "🛒",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
+      title: "AI-Based CCTV Network for Crowd Management",
+      description: "Built an AI-powered system for real-time crowd density analysis. This system improved crowd detection accuracy by 30% using computer vision and machine learning algorithms.",
+      image: "🎥",
+      tech: ["Python", "OpenCV", "TensorFlow", "YOLO"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
       id: 2,
-      title: "AI-Powered Dashboard",
-      description: "Analytics dashboard with machine learning insights, real-time data visualization, and predictive analytics for business intelligence.",
-      image: "🤖",
-      tech: ["Next.js", "Python", "TensorFlow", "D3.js"],
+      title: "Wearable Sleep Monitoring Device",
+      description: "Designed and conceptualized a wristwatch for monitoring sleep patterns and detecting sleep apnea. Integrates biometric sensors with AI-powered analysis.",
+      image: "⌚",
+      tech: ["IoT Sensors", "Machine Learning", "Python", "Data Analytics"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
       id: 3,
-      title: "Social Media App",
-      description: "Real-time social platform with instant messaging, media sharing, and advanced privacy controls. Built for scalability and performance.",
-      image: "📱",
-      tech: ["React Native", "Firebase", "WebRTC"],
+      title: "Handwritten OCR System",
+      description: "Developed an AI-driven text recognition system capable of converting handwritten text into digital format. Presented at ICEACS-24 conference.",
+      image: "📝",
+      tech: ["Python", "TensorFlow", "OpenCV", "Neural Networks"],
       liveUrl: "#",
       githubUrl: "#",
-      featured: false
+      featured: true
     },
     {
       id: 4,
-      title: "Portfolio Website",
-      description: "A stunning portfolio website with 3D animations, particle effects, and smooth transitions. Optimized for performance and accessibility.",
-      image: "🎨",
-      tech: ["React", "Three.js", "Framer Motion"],
+      title: "Diabetes Prediction Model",
+      description: "Developed a predictive model for early-stage diabetes detection. Utilized ML algorithms for risk assessment and generated actionable insights.",
+      image: "🏥",
+      tech: ["Python", "Scikit-learn", "Pandas", "NumPy"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
     },
     {
       id: 5,
-      title: "Task Management Tool",
-      description: "Collaborative project management application with real-time updates, team collaboration features, and advanced reporting.",
-      image: "📋",
-      tech: ["Vue.js", "Express", "PostgreSQL"],
+      title: "Smart Medication Dispensing System",
+      description: "Patent-pending innovation for automated drug dispensing with AI-powered prescription scanning, biometric authentication, and inventory management.",
+      image: "💊",
+      tech: ["AI/ML", "Biometric Systems", "RFID", "IoT"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
     },
     {
       id: 6,
-      title: "Weather App",
-      description: "Beautiful weather application with location-based forecasts, interactive maps, and customizable widgets for different weather metrics.",
-      image: "🌤️",
-      tech: ["React", "OpenWeather API", "Mapbox"],
+      title: "Data Analytics Dashboard",
+      description: "Interactive dashboard for exploratory data analysis with multiple visualization options and statistical insights for content trend analysis.",
+      image: "📊",
+      tech: ["Python", "Tableau", "Power BI", "Data Visualization"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
@@ -79,10 +79,10 @@ const Projects = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-5xl lg:text-7xl font-bold mb-6">
-            My <span className="gradient-text">Projects</span>
+            Academic & Personal <span className="gradient-text">Projects</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A showcase of my latest work, featuring innovative solutions and cutting-edge technologies.
+            Innovative projects spanning AI, machine learning, IoT, and healthcare technology solutions.
           </p>
         </motion.div>
 

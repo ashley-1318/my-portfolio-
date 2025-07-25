@@ -9,6 +9,9 @@ import CallToAction from "./pages/CallToAction";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
+import Experience from "./pages/Experience";
+import Certifications from "./pages/Certifications";
+import Patent from "./pages/Patent";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +30,9 @@ const App = () => (
             <Route path="/cta" element={<CallToAction />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/skills" element={<Skills />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/certifications" element={<Certifications />} />
+            <Route path="/patent" element={<Patent />} />
             <Route path="/articles" element={<div className="min-h-screen pt-20 flex items-center justify-center"><h1 className="text-4xl">Articles Page Coming Soon</h1></div>} />
             <Route path="/profiles" element={<div className="min-h-screen pt-20 flex items-center justify-center"><h1 className="text-4xl">Coding Profiles Coming Soon</h1></div>} />
             <Route path="/resume" element={<div className="min-h-screen pt-20 flex items-center justify-center"><h1 className="text-4xl">Resume Page Coming Soon</h1></div>} />

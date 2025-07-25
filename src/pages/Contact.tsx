@@ -29,26 +29,26 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "hello@example.com",
-      href: "mailto:hello@example.com"
+      value: "ashleyjosco18@gmail.com",
+      href: "mailto:ashleyjosco18@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "9043840276",
+      href: "tel:9043840276"
     },
     {
       icon: MapPin,
-      label: "Location",
-      value: "San Francisco, CA",
-      href: "#"
+      label: "LinkedIn",
+      value: "www.linkedin.com/in/ashley-josco-c",
+      href: "https://www.linkedin.com/in/ashley-josco-c"
     }
   ];
 
   const socialLinks = [
     { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/ashley-josco-c", label: "LinkedIn" },
     { icon: Twitter, href: "#", label: "Twitter" },
     { icon: Youtube, href: "#", label: "YouTube" },
     { icon: Instagram, href: "#", label: "Instagram" },
@@ -69,7 +69,7 @@ const Contact = () => {
             Get In <span className="gradient-text">Touch</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to start your next project? Let's discuss how we can bring your ideas to life.
+            I'm always open to discussing new opportunities and collaborations. Feel free to reach out!
           </p>
         </motion.div>
 
@@ -195,15 +195,15 @@ const Contact = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-primary rounded-full animate-pulse-glow" />
-                  <span>Available for freelance projects</span>
+                  <span>Seeking Data Science opportunities</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-secondary rounded-full animate-pulse-glow" />
-                  <span>Open to full-time opportunities</span>
+                  <span>Open to AI/ML projects</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-accent rounded-full animate-pulse-glow" />
-                  <span>Consulting available</span>
+                  <span>Available for collaborations</span>
                 </div>
               </div>
               

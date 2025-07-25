@@ -57,7 +57,7 @@ const CallToAction = () => {
               <Button asChild size="lg" className="group relative overflow-hidden px-8 py-4 text-lg">
                 <Link to="/contact" className="flex items-center space-x-3">
                   <Zap size={24} />
-                  <span>Hire Me</span>
+                  <span>Contact Me</span>
                   <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                   <div className="absolute inset-0 bg-gradient-glow opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10" />
                 </Link>

@@ -27,9 +27,9 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <span className="gradient-text">Creative</span>
+              <span className="gradient-text">Ashley</span>
               <br />
-              <span className="text-foreground">Developer</span>
+              <span className="text-foreground">Josco</span>
             </motion.h1>
             
             <motion.p
@@ -38,7 +38,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Building exceptional digital experiences with cutting-edge technology and innovative design.
+              Aspiring Data Scientist & AI Enthusiast leveraging machine learning and data analytics to solve complex problems and drive data-driven insights.
             </motion.p>
             
             <motion.div
@@ -71,11 +71,11 @@ const Hero = () => {
             >
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-primary rounded-full animate-pulse-glow" />
-                <span>Available for freelance</span>
+                <span>B.Tech AI & Data Science</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-secondary rounded-full animate-pulse-glow" />
-                <span>Open to opportunities</span>
+                <span>Seeking Data Science Opportunities</span>
               </div>
             </motion.div>
           </motion.div>
@@ -105,42 +105,38 @@ const Hero = () => {
             <span className="gradient-text">About Me</span>
           </h2>
           
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <motion.div
-              className="interactive-card p-8 text-left"
-              whileHover={{ y: -10 }}
-              transition={{ duration: 0.3 }}
+          <div className="max-w-4xl mx-auto space-y-8 text-center">
+            <motion.p
+              className="text-lg text-muted-foreground leading-relaxed"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <div className="text-4xl mb-4">🚀</div>
-              <h3 className="text-xl font-bold mb-4 text-primary">Passion for Innovation</h3>
-              <p className="text-muted-foreground">
-                I thrive on creating cutting-edge solutions that push the boundaries of what's possible in web development.
-              </p>
-            </motion.div>
+              I am a passionate and driven B.Tech student in Artificial Intelligence & Data Science at SRM TRP Engineering College. 
+              My fascination with the power of data has led me to pursue a career where I can apply my expertise in machine learning, 
+              data analytics, and visualization to uncover meaningful insights and solve real-world challenges.
+            </motion.p>
             
-            <motion.div
-              className="interactive-card p-8 text-left"
-              whileHover={{ y: -10 }}
-              transition={{ duration: 0.3 }}
+            <motion.p
+              className="text-lg text-muted-foreground leading-relaxed"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
             >
-              <div className="text-4xl mb-4">💡</div>
-              <h3 className="text-xl font-bold mb-4 text-secondary">Creative Problem Solving</h3>
-              <p className="text-muted-foreground">
-                Every challenge is an opportunity to innovate. I approach problems with creativity and analytical thinking.
-              </p>
-            </motion.div>
+              I believe in a meticulous and analytical approach to problem-solving. Whether it's developing predictive models 
+              or performing exploratory data analysis, I am committed to delivering accurate and impactful results. I am constantly 
+              learning and exploring new technologies to stay at the forefront of the ever-evolving field of data science.
+            </motion.p>
             
-            <motion.div
-              className="interactive-card p-8 text-left"
-              whileHover={{ y: -10 }}
-              transition={{ duration: 0.3 }}
+            <motion.p
+              className="text-lg text-muted-foreground leading-relaxed"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <div className="text-4xl mb-4">⚡</div>
-              <h3 className="text-xl font-bold mb-4 text-accent">Performance Focused</h3>
-              <p className="text-muted-foreground">
-                I believe in building fast, accessible, and user-friendly applications that deliver exceptional experiences.
-              </p>
-            </motion.div>
+              I am actively seeking opportunities in data science, AI, or business intelligence where I can contribute my skills 
+              in predictive modeling, statistical analysis, and problem-solving to a dynamic team.
+            </motion.p>
           </div>
         </motion.div>
       </div>
