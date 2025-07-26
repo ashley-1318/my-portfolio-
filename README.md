@@ -1,73 +1,93 @@
-# Welcome to your Lovable project
+# Ashley Josco's Personal Portfolio
 
-## Project info
+A modern and responsive personal portfolio website built to showcase my skills, projects, and professional experience.
 
-**URL**: https://lovable.dev/projects/f76368cc-7cc6-4aa5-8deb-e8d1da53a9dc
+### **[View Live Demo](https://ashley-portfolio-62b1b.web.app/)**
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📸 Preview
 
-**Use Lovable**
+*(Add a screenshot of your portfolio's home page here! Simply drag and drop an image into this file on GitHub.)*
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f76368cc-7cc6-4aa5-8deb-e8d1da53a9dc) and start prompting.
+![Ashley's Portfolio Preview](https://ashley-portfolio-62b1b.web.app/preview.png)
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ✨ Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+-   **Fully Responsive:** Designed to look great on all devices, from mobile phones to desktops.
+-   **Fast & Optimized:** Built with Vite for incredibly fast load times and an optimized user experience.
+-   **Modern Tech Stack:** Utilizes modern tools like TypeScript and Tailwind CSS for a robust and maintainable codebase.
+-   **Projects Section:** A dedicated area to showcase my work with links to live demos and source code.
+-   **About Me & Contact:** Clear sections for my professional background and contact information.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+This project was built using the following technologies:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+-   **Frontend:** Vite, TypeScript
+-   **Styling:** Tailwind CSS
+-   **Deployment:** Firebase Hosting
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🚀 Getting Started
 
-**Edit a file directly in GitHub**
+To run this project on your local machine, follow these steps:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Prerequisites
 
-**Use GitHub Codespaces**
+Make sure you have [Node.js](https://nodejs.org/) (which includes npm) installed on your system.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Installation & Setup
 
-## What technologies are used for this project?
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    ```
 
-This project is built with:
+2.  **Navigate to the project directory:**
+    ```bash
+    cd your-repository-name
+    ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-## How can I deploy this project?
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-Simply open [Lovable](https://lovable.dev/projects/f76368cc-7cc6-4aa5-8deb-e8d1da53a9dc) and click on Share -> Publish.
+Open [http://localhost:5173](http://localhost:5173) (or whatever port is shown in the terminal) in your browser to see the result.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 部署 (Deployment)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This site is deployed on Firebase. To deploy your own version, follow these steps:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1.  **Build the project for production:**
+    ```bash
+    npm run build
+    ```
+    This command creates an optimized `dist` folder.
+
+2.  **Deploy to Firebase:**
+    ```bash
+    firebase deploy
+    ```
+
+---
+
+## 👤 Author
+
+**Ashley Josco**
+
+-   **GitHub:** [@your-username](https://github.com/ashley-1812)
+-   **LinkedIn:** [your-profile](https://www.linkedin.com/in/ashley-josco-c-)
